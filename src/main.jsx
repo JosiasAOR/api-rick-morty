@@ -7,7 +7,7 @@ import Personagem  from './pages/personagem'
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
-  { path: '/personagem/:nome', element: <Personagem /> }
+  { path: '/personagem/:id', element: <Personagem /> }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
